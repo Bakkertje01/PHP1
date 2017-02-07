@@ -20,7 +20,8 @@ and open the template in the editor.
         print ("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum massa vel aliquam viverra. Integer finibus ante quis felis venenatis, in vestibulum mauris laoreet. Nunc pulvinar sagittis est sit amet suscipit. Integer non est ac enim placerat condimentum sollicitudin vel dolor. Integer elementum erat quis erat porta varius. Suspendisse molestie tempor lobortis. Nullam bibendum, risus sed consequat luctus, libero magna varius augue, eget rutrum magna dolor sed lectus. In id lacus nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ultrices condimentum nibh eget pharetra. Nulla non odio finibus, facilisis felis vel, dapibus odio. Nunc hendrerit placerat nisl, non rhoncus ex lobortis sit amet. In congue luctus massa, nec lobortis eros convallis in. Curabitur non enim erat. Suspendisse consequat molestie tellus, ac congue lacus vestibulum sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br><br>");
         
         echo $txt1." - ".$txt2;
-        
+        //HALLO, DIT IS EEN TEST OM TE ZIEN DAT GITHUB WERKT!!!
         ?>
+        
     </body>
 </html>

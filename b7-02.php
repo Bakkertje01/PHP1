@@ -18,8 +18,9 @@
 
      <?php
      
-   
-       if ($cijfer == 1 OR $cijfer == 2) { 
+    $cijfer = 4;
+    
+       if ($cijfer == 1 OR $cijfer == 2 OR $cijfer == 3) { 
             echo "Zeer slecht";
 
     }   elseif ($cijfer == 4 OR $cijfer == 5) {

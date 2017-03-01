@@ -1,42 +1,79 @@
 <?php
 
-/* 
- *  Filename   :
- *  Assignment :
- *  Created    :
- *  Desription :
- *  Programmer :
- */
+    /* 
+     *  Filename   :
+     *  Assignment :
+     *  Created    :
+     *  Desription :
+     *  Programmer :
+     */
 
-$cijfer = 8; //rand(0.1, 10.9);
+    $cijfer = 6; //rand(0.1, 10.9);
 
-//echo $cijfer;
+    //echo $cijfer;
+    ?>
+    
+ <p>
+ <h1>if-else</h1>
 
-if  ($cijfer < 1) 
-        echo "Ongeldig cijfer TE LAAG (voer een cijfer  van 1 tot en met 10 in)";
-    
-    elseif ($cijfer == 1) 
-        echo "Zeer slecht";
-    
-    elseif ($cijfer == 3) 
-        echo "Onvoldoende";
-    
-    elseif ($cijfer == 6)
-        echo "Voldoende";
-    
-    elseif ($cijfer == 8) 
-        echo "Goed";
-    
-    elseif ($cijfer == 9) 
-        echo "Zeer goed";
-    
-    elseif ($cijfer == 10) 
-        echo "Uitmuntend";
-    
-    elseif ($cijfer > 10) 
-        echo "Ongeldig cijfer TE HOOG (voer een cijfer van 1 tot 10 in)";
-    else 
-        echo "dit klopt niet";
+     <?php
+     
+   
+       if ($cijfer == 1 OR $cijfer == 2) { 
+            echo "Zeer slecht";
 
+    }   elseif ($cijfer == 4 OR $cijfer == 5) {
+            echo "Onvoldoende";
+
+    }   elseif ($cijfer == 6 OR $cijfer == 7){
+            echo "Voldoende";
+
+    }   elseif ($cijfer == 8) {
+            echo "Goed";
+
+    }   elseif ($cijfer == 9) {
+            echo "Zeer goed";
+
+    }   elseif ($cijfer == 10) {
+            echo "Uitmuntend";
+
+    }   else  {
+            echo "Ongeldig cijfer, TE HOOG (voer een cijfer van 1 tot 10 in)";
+    }  
+?>
+</p>
+
+<p>
+<h1>Switch</h1>
+<?php 
         
-    
+        $cijfer = 87;
+        
+        switch ($cijfer) {
+            
+            case ($cijfer == 1 OR $cijfer == 2):
+                echo"Zeer slecht";
+                break;
+            case ($cijfer == 4 OR $cijfer == 5):
+                echo"onvoldoende";
+                break;
+            case ($cijfer == 6 OR $cijfer == 7):
+                echo"voldoende";
+                break;
+            case ($cijfer == 8):
+                echo "goed";
+                break;
+            case ($cijfer == 9):
+                echo "Zeer goed";
+                break;
+            case ($cijfer == 10):
+                echo "Uitmuntend";
+                break;
+          
+            default:
+                echo "het klopt niet";
+                                
+        }
+        
+        ?>
+</p>

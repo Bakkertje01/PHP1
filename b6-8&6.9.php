@@ -8,8 +8,17 @@
  *  Programmer :
  */
 
-//deze snap ik niet
 
-//echo date("Y-m-d", 10811216);
+// put your code here
+$datum = "14062016";
+$dag = round($datum/1000000);
+$maand = round($datum % 100000 / 10000);
+$jaar = ($datum % 10000);
 
-echo 'Now:  '. date('Y-m-d');
+//modulo pakt achterste getallen, delen door de voorste
+
+echo $dag."-".$maand."-".$jaar;
+
+//$jaar
+
+?>

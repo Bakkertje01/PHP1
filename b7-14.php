@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        	<meta charset="UTF-8">
+        <meta charset="UTF-8">
         <title>
             <?php
-            /* 
+            /*
              *  Filename   :
              *  Assignment :
              *  Created    :
@@ -15,56 +15,78 @@
         </title>
     </head>
     <body>
-        <p>
-        <h1>For</h1>
-            <?php 
-                for ($z=0; $z<=10; $z++){ 
-                   for ($y=0; $y<$z; $y++){
-                       echo" + ";
-                   }
-                       for ($a=1; $a<10; $a++){ 
-                        for ($b=6; $b>$a; $b--){
-                            
-                        }
-                   echo" - ";
-                }
-                   echo"<br />";
-                }
-
-            ?>
-        </p>
-        <p>
-        <h1>Do-While</h1>
-                <?php
-            $z = 0;
-            do{
-                $y = 0;
-                do {
-                    echo "+";
-                    $y++;
-                }  while ($y <= $z);
-                echo "</br>";
-                $z++;
-            }   while ($z <= 10);
-            ?>
-        </p>
-        <p>
-        <h1>While</h1>
+        <pre>
+        
             <?php
-                $z = 1;
-                while ($z <=10) {
-                    $y = 1;
-                    while ($y <=$z){
-                echo "+";
-                $y++;
+            echo "<h1>For</h1>";
+
+            for ($z = 0; $z <= 10; $z++)
+            {
+                for ($y = 1; $y <= $z; $y++)
+                {
+                    echo" + ";
+                }
+                for ($a = 10; $y <= $a; $a--)
+                {
+
+                    echo" - ";
+                }
+                echo"<br />";
+            }
+
+
+            echo "<h1>While</h1>";
+
+            $z = 0;
+            while ($z <= 10)
+            {
+                $y = 1;
+                while ($y <= $z)
+                {
+                    echo " + ";
+                    $y++;
+                }
+                $a = 10;
+                while ($y <= $a)
+                {
+                    echo " - ";
+                    $a--;
                 }
                 echo "</br>";
                 $z++;
-                }
+            }
+
+            echo "<h1>Do-While</h1>";
+
+            $z = 0;
+            do
+            {
+                $y = 1;
+                do
+                {
+                    if ($y != 10)
+                    {
+                    echo " + ";
+                    }
+                    $y++;
+                } while ($y <= $z);
+
+                $a = 10;
+                do
+                {
+                  
+                        echo " - ";
+                    
+                    $a--;
+                } while ($y <= $a);
+                echo "</br>";
+                $z++;
+            } while ($z <= 9)
             ?>
-        </p>
-        
-        
-        
+    
+
+        </pre>
+
+
     </body>
 </html>

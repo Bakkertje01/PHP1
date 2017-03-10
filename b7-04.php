@@ -23,6 +23,20 @@
             echo $x;
             echo "<br>";
             
+            /*
+            foreach($fruits as $key => $var){
+            echo $key;
+            echo $var;
+            echo "<br>";
+            
+             * echo "<pre>";
+             *  var_dump("$fruits");
+             * die();
+             * echo "</pre>";
+             * 
+             * 
+             */
+            
         }        
         
         ?>

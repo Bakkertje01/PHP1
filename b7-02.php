@@ -52,7 +52,9 @@
         
         switch ($cijfer) {
             
-            case ($cijfer == 1 OR $cijfer == 2):
+            case 1:
+            case 2:
+            case 3:
                 echo"Zeer slecht";
                 break;
             case ($cijfer == 4 OR $cijfer == 5):

@@ -15,8 +15,8 @@
 
 //echo $fahrenheit." Graden Fahrenheit";
 
-$fahrenheit = "70";
+$fahrenheit = 70;
 
 $celsius=($fahrenheit-32)*5/9;
 
-echo $celsius." Graden Celsius";
+echo $celsius."Graden Celsius";

@@ -13,8 +13,10 @@ and open the template in the editor.
     <!--<html><p1>hallo</p1></html>-->
         <?php
         // put your code here
-        $txt1 = "Learn PHP";
+        $txt1 = "Learn PHP-test";
         $txt2 = "W3Schools.com";
+
+
         
         print ("<h1>Hello world!</h1><br>");
         print ("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut "

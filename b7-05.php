@@ -19,7 +19,8 @@
         <p>
         <h1>For</h1>
             <?php
-                for ($x = 0; $x <= 10; ++$x) {
+                for ($x = 0; $x <= 10; $x++) {
+                    //zolang x kleiner is dan 10, print *, als dat gebeurt is dan ++
                     echo "*";
                 }
             ?>

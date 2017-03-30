@@ -64,9 +64,13 @@
                 $y = 1;
                 do
                 {
-                    if ($y != 10)
+                    if ($y <= $z)
                     {
                     echo " + ";
+                    }
+                    else
+                    {
+                    echo " - ";
                     }
                     $y++;
                 } while ($y <= $z);
@@ -74,14 +78,14 @@
                 $a = 10;
                 do
                 {
-                  
-                        echo " - ";
+                          echo " - ";
                     
                     $a--;
                 } while ($y <= $a);
-                echo "</br>";
-                $z++;
-            } while ($z <= 9)
+                
+            echo "</br>";
+            $z++;
+            } while ($z <= 10)
             ?>
     
 

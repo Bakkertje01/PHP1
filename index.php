@@ -43,7 +43,7 @@
     <p3><h2>Bijlage 8</h2>
 <ul>
         <li><a href="b8-1.php" target="_blank">Opdracht 8.1</a></li>
-        <li><a href="b8-2.php" target="_blank">Opdracht 8.2</a></li>
+        <li><a href="b8-2text.php" target="_blank">Opdracht 8.2</a></li>
      
 </ul>
     </p3>

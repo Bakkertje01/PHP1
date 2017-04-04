@@ -8,7 +8,7 @@
 ?>
 <div class = "header">
 
-    <h2>Menu:</h2>
+
 
     <div class="navbar">
     <ul>
